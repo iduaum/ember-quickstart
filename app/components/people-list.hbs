@@ -1,6 +1,6 @@
 <h2>{{ @title }}</h2>
 
-<ul class="people-list">
+<ul class="people-listing">
   {{#each @people as |person|}}
     <li class="person">
       <button type="button" {{on 'click' (fn this.showPerson person)}}>{{person}}</button>
